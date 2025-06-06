@@ -62,6 +62,10 @@ def appointment():
         return redirect('/')
     return render_template('appointment.html')
 
+@app.route('/review')
+def review():
+    return render_template('review.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
 
