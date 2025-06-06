@@ -22,3 +22,6 @@ CREATE TABLE IF NOT EXISTS admin (
   password VARCHAR(100),
   email VARCHAR(100)
 );
+
+INSERT INTO admin (username, password, email)
+VALUES ('admin', 'admin123', 'admin@hospital.com');
